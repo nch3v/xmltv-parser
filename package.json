@@ -1,0 +1,30 @@
+{
+  "name": "xmltv-parser",
+  "version": "1.0.0",
+  "description": "Library to parse XMLTV format",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ./node_modules/eslint/bin/eslint.js src/index.js  && node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "keywords": [
+    "xmltv"
+  ],
+  "author": "Nicolas Chevolot",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "2.4.0",
+    "gulp": "^3.9.0",
+    "gulp-amd-idfy": "^0.2.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-typescript": "2.13.4",
+    "install": "^0.4.0",
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0",
+    "lodash": "^3.10.1"
+  },
+  "dependencies": {
+    "diacritics": "1.2.3",
+    "moment": "^2.10.6",
+    "saxo-parser": "latest"
+  }
+}

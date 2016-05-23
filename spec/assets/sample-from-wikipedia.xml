@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+
+<tv source-info-url="http://www.schedulesdirect.org/" source-info-name="Schedules Direct" generator-info-name="XMLTV/$Id: tv_grab_na_dd.in,v 1.70 2008/03/03 15:21:41 rmeden Exp $" generator-info-url="http://www.xmltv.org/">
+    <channel id="I10436.labs.zap2it.com">
+        <display-name>13 KERA</display-name>
+        <display-name>13 KERA TX42822:-</display-name>
+        <display-name>13</display-name>
+        <display-name>13 KERA fcc</display-name>
+        <display-name>KERA</display-name>
+        <display-name>KERA</display-name>
+        <display-name>PBS Affiliate</display-name>
+        <icon src="file://C:\Perl\site/share/xmltv/icons/KERA.gif" />
+    </channel>
+    <channel id="I10759.labs.zap2it.com">
+        <display-name>11 KTVT</display-name>
+        <display-name>11 KTVT TX42822:-</display-name>
+        <display-name>11</display-name>
+        <display-name>11 KTVT fcc</display-name>
+        <display-name>KTVT</display-name>
+        <display-name>KTVT</display-name>
+        <display-name>CBS Affiliate</display-name>
+        <icon src="file://C:\Perl\site/share/xmltv/icons/KTVT.gif" />
+    </channel>
+    <programme start="20080715023000 -0600" stop="20080715040000 -0600" channel="I10436.labs.zap2it.com">
+        <title lang="en">Mystery!</title>
+        <sub-title lang="en">Foyle's War, Series IV: Casualties of War</sub-title>
+        <desc lang="en">The murder of a prominent scientist may have been due to a gambling debt.</desc>
+        <date>20070708</date>
+        <category lang="en">Anthology</category>
+        <category lang="en">Mystery</category>
+        <category lang="en">Series</category>
+        <episode-num system="dd_progid">EP00003026.0666</episode-num>
+        <episode-num system="onscreen">2706</episode-num>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <previously-shown start="20070708000000" />
+        <subtitles type="teletext" />
+    </programme>
+    <programme start="20080715103000 -0600" stop="20080715113000 -0600" channel="I10759.labs.zap2it.com">
+        <title lang="en">The Young and the Restless</title>
+        <sub-title lang="en">Sabrina Offers Victoria a Truce</sub-title>
+        <desc lang="en">Jeff thinks Kyon stole the face cream; Nikki asks Nick to give David a chance; Amber begs Adrian to go to Australia.</desc>
+        <credits>
+            <actor>Peter Bergman</actor>
+            <actor>Eric Braeden</actor>
+            <actor>Jeanne Cooper</actor>
+            <actor>Melody Thomas Scott</actor>
+        </credits>
+        <date>20080715</date>
+        <category lang="en">Soap</category>
+        <category lang="en">Series</category>
+        <episode-num system="dd_progid">EP00004422.1359</episode-num>
+        <episode-num system="onscreen">8937</episode-num>
+        <audio>
+            <stereo>stereo</stereo>
+        </audio>
+        <subtitles type="teletext" />
+        <rating system="VCHIP">
+            <value>TV-14</value>
+        </rating>
+    </programme>
+</tv>
