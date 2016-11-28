@@ -91,7 +91,7 @@ describe("XmltvParser", function() {
             return credit.role === "actor"
           });
 					expect(actors.length).toBe(4);
-					expect(_.pluck(actors,'name')).toEqual(["Peter Bergman","Eric Braeden","Jeanne Cooper","Melody Thomas Scott"]);
+					expect(_.map(actors,'name')).toEqual(["Peter Bergman","Eric Braeden","Jeanne Cooper","Melody Thomas Scott"]);
 				}
 
 				progCounter++;
